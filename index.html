@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="robsRings.css">
     <title>RobNSteel</title>
 </head>
@@ -15,10 +16,10 @@
     <nav class="navbar navbar-light bg-light">
         <button type="button" class="btn btn-outline-secondary" onclick="addNewItem()">Add Item</button>
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-      </nav>
+    </nav>
     <table class="table table-hover" id="main_table">
         <thead>
             <tr>
@@ -37,8 +38,9 @@
                 <td class="quantity__1">0</td>
                 <td>$0.93</td>
                 <td>$10.00</td>
-                <td><img src="skull ring.png" width="200" height="200" alt="skull ring"><button type="button" class="edit_btn">Edit</button></td>
-                
+                <td><img src="skull ring.png" width="200" height="200" alt="skull ring"><button type="button"
+                        class="edit_btn">Edit</button></td>
+
             </tr>
             <tr>
                 <th scope="row">1018</th>
@@ -46,7 +48,8 @@
                 <td class="quantity__2">0</td>
                 <td>$0.93</td>
                 <td>$10.00</td>
-                <td><img src="skull ring.png"  width="200" height="200" alt="skull ring"><button type="button" class="edit_btn">Edit</button></td>
+                <td><img src="skull ring.png" width="200" height="200" alt="skull ring"><button type="button"
+                        class="edit_btn">Edit</button></td>
             </tr>
             <tr>
                 <th scope="row">1017</th>
@@ -54,7 +57,8 @@
                 <td class="quantity__3">0</td>
                 <td>$0.93</td>
                 <td>$10.00</td>
-                <td><img src="skull ring.png"  width="200" height="200" alt="skull ring"><button type="button" class="edit_btn">Edit</button></td>
+                <td><img src="skull ring.png" width="200" height="200" alt="skull ring"><button type="button"
+                        class="edit_btn">Edit</button></td>
             </tr>
             <tr>
                 <th scope="row">1016</th>
@@ -62,7 +66,8 @@
                 <td class="quantity__4">0</td>
                 <td>$0.93</td>
                 <td>$10.00</td>
-                <td><img src="skull ring.png"  width="200" height="200" alt="skull ring"><button type="button" class="edit_btn">Edit</button></td>
+                <td><img src="skull ring.png" width="200" height="200" alt="skull ring"><button type="button"
+                        class="edit_btn">Edit</button></td>
             </tr>
         </tbody>
     </table>
@@ -71,16 +76,18 @@
             <form>
                 <div class="close">+</div>
                 <input type="text" id="new_sku" placeholder="Sku">
-                <input type="text" id="new_descrip"  placeholder="Description">
-                <input type="text" id="new_qty"  placeholder="Quantity">
-                <input type="text" id="new_cost"  placeholder="Cost">
-                <input type="text" id="new_price"  placeholder="Price">
-                <input type="file"  accept="image/*" name="image" id="file" class="hide_file"  onchange="loadFile(event)">
+                <input type="text" id="new_descrip" placeholder="Description">
+                <input type="text" id="new_qty" placeholder="Quantity">
+                <input type="text" id="new_cost" placeholder="Cost">
+                <input type="text" id="new_price" placeholder="Price">
+                <input type="file" accept="image/*" name="image" id="file" class="hide_file" onchange="loadFile(event)">
                 <button type="button" class="btn btn-success" id="btn-add-new">Submit</button>
             </form>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="robRings.js"></script>
 </body>
 
-</html> 
+</html>
